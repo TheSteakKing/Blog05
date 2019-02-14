@@ -48,7 +48,7 @@ Vect3 vectMultiScal(Vect3 a,float b)
 {
 	Vect3 vec;
 	vec.x = a.x * b;
-	vec.y =  * b;
+	vec.y = a.y * b;
 	vec.z = a.z * b;
 	return vec;
 }
