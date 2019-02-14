@@ -6,3 +6,6 @@ compiler:
 script:
  - TravisCI
  - g++ Source.cpp -o Blog05.exe
+  - mkdir build
+ - cd build
+ - cmake .. && make 
