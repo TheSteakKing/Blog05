@@ -4,8 +4,5 @@ compiler:
  - gcc
 
 script:
- - TravisCI
- - g++ Source.cpp -o Blog05.exe
-  - mkdir build
- - cd build
- - cmake .. && make 
+ - cd Blog05\Vector\Vectors
+ - g++ Source.cpp -o Blog05.o
