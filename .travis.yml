@@ -39,4 +39,4 @@ before_script:
   - cd ${TRAVIS_BUILD_DIR}
 
 script:
-g++ Source.cpp -o Blog05.o
+- g++ Source.cpp -o Blog05.o
