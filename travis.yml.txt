@@ -1,0 +1,8 @@
+language: cpp
+
+compiler:
+ - gcc
+
+script:
+ - TravisCI
+ - g++ Source.cpp -o Blog05.exe
